@@ -1,0 +1,30 @@
+# Computes the area of a circle
+import math
+
+r = input("What is the radius of the circle? ")
+a = math.pi * float(r) ** 2
+
+
+print("The area of a circle with a radius of", r, "is", a)
+
+
+
+Output:
+What is the radius of the circle? The radius of the circle with a radius of 5 is 78.539633974483
+
+
+
+Task 2:
+
+#Write a Python program to accept a filename from the user and print the extension of that.
+
+file_name= input("Please enter the file name: ")
+
+file= file_name.split('.')
+
+print("\nFile extension is: " + repr(file[-1]))
+
+
+Output:
+Please enter the file name: abc.py
+File extension is: 'py'
