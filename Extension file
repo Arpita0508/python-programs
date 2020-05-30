@@ -1,0 +1,14 @@
+#Write a Python program to accept a filename from the user and print the extension of that.
+
+file_name= input("Please enter the file name: ")
+
+file= file_name.split('.')
+
+print("\nFile extension is: " + repr(file[-1]))
+
+
+
+
+Output:
+Please enter the file name: abc.py
+File extension is: 'py'
